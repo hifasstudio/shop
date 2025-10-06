@@ -51,6 +51,7 @@ const ALLOWED_ORIGINS = [
   "http://127.0.0.1:5500",
   "https://hifasstudio.github.io",
 ];
+
 app.use(
   cors({
     origin(origin, cb) {
@@ -62,6 +63,9 @@ app.use(
     allowedHeaders: ["Content-Type", "Authorization"],
   })
 );
+
+// Preflight universal (evita bloqueos con OPTIONS)
+app.options("*", cors());
 
 // Body parser JSON
 app.use(express.json());
