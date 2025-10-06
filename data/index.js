@@ -261,8 +261,8 @@ if (!process.env.GITHUB_TOKEN) {
  *  - Si cambias la ubicación en tu repo, actualiza `ghPath`.
  */
 async function subirRegistroAGitHub(contenidoBase64, sha) {
-  const owner = "meowrhino"; // usuario/organización
-  const repo = "anakatana"; // nombre del repo
+  const owner = "hifasstudio"; // usuario/organización
+  const repo = "shop"; // nombre del repo
   const ghPath = "data/registro.json"; // ruta dentro del repo
 
   // Si no tenemos SHA, intenta obtenerlo (para update vs create)
