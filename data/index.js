@@ -49,7 +49,7 @@ function adminAuth(req, res, next) {
 const ALLOWED_ORIGINS = [
   "http://localhost:5500",
   "http://127.0.0.1:5500",
-  "https://meowrhino.github.io",
+  "https://hifasstudio.github.io",
 ];
 app.use(
   cors({
