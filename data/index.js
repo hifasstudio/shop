@@ -542,8 +542,8 @@ async function upsertFileOnGitHub(pathInRepo, contentString, message) {
   if (!process.env.GITHUB_TOKEN) return null;
   try {
     const gh = new Octokit({ auth: process.env.GITHUB_TOKEN });
-    const owner = "meowrhino";
-    const repo = "anakatana";
+    const owner = "hifasstudio";
+    const repo = "shop";
     // get SHA if exists
     let sha;
     try {
