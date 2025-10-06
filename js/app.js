@@ -1,5 +1,5 @@
 // Config API (Render)
-window.API_BASE = "https://anakatana-backend.onrender.com";
+window.API_BASE = "https://shop-backend-1lfk.onrender.com";
 // Mini-guard: si por algún motivo no está definida, evita petar y avisa
 if (!window.API_BASE) {
   console.warn("API_BASE no definido; usando fallback local (mismo origen)");
