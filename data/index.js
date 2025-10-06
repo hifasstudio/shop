@@ -26,7 +26,7 @@ const path = require("path");
 
 // URL del frontend para redirecciones de Stripe (puede venir por env var)
 const FRONTEND_URL =
-  process.env.FRONTEND_URL || "https://meowrhino.github.io/anakatana";
+  process.env.FRONTEND_URL || "https://hifasstudio.github.io/shop";
 
 // ───────────────────────────────────────────────────────────────────────────────
 // 2) INICIALIZACIÓN DE EXPRESS + CORS + PARSERS
